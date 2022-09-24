@@ -1,0 +1,18 @@
+h1,h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:brown;
+background-color: aqua;
+font-style: italic;
+}
+
+p{
+font-family: 'Courier New', Courier, monospace;
+color: blue;    
+background-color: lightcyan;
+font-size: 18px;
+text-transform: lowercase;
+}
+
+body{
+background-color:cadetblue;    
+}
