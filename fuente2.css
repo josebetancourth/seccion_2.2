@@ -1,18 +1,13 @@
-h1,h2{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color:brown;
-background-color: aqua;
-font-style: italic;
+.imagen{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition:
 }
 
-p{
-font-family: 'Courier New', Courier, monospace;
-color: blue;    
-background-color: lightcyan;
-font-size: 18px;
-text-transform: lowercase;
-}
-
-body{
-background-color:cadetblue;    
+.padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;   
 }
