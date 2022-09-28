@@ -9,7 +9,7 @@ background-color: aqua;
 
 body{
 background-image:url("patron-2.jpeg");
-background-repeat: repeat-y;
+
 }
 
 td:hover{/*pseudo clases - eventos*/
