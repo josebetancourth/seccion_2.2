@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background-color:cadetblue;
+    width: 120px;
+    height: 25px;
+    float:left;
+    text-align: center;
+    padding-top: 10px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+li:hover{background-color: bisque;}
+a{text-decoration: none;}
+
+.nivel2{
+    padding-top: 9px;
+}
+.nivel2 li{  
+border-left: 0;
+display:none;
+}
+li:hover>.nivel2 li{display:block}

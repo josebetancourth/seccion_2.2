@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu2.css">
+    <link rel="stylesheet" href="menu5.css">
     <title>Document</title>
 </head>
 <body>
    <nav>
-        <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">NOSOTROS</a></li>
+        <ul><!--lista no ordenada-->
+            <li><a href="#">INICIO</a></li><!--elemento de lista-->
+            <li><a href="#">NOSOTROS</a><!--enlace--></li>        
             <li><a href="#">CONTACTO</a></li>
-            <li><a href="#">SERVICIOS</a></li>
+            <li><a href="#">SERVICIOS</a> 
+                <ul class="nivel2"><!--lista no ordenada menu desplegable-->
+                    <li><a href="#">INICIO</a></li><!--elemento de lista-->
+                    <li><a href="#">NOSOTROS</a><!--enlace--></li>        
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </li>
         </ul>
     </nav> 
 </body>
