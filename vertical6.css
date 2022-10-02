@@ -1,6 +1,6 @@
 td{
    width: 400px;
-   height: 200px;
+   height: 1000px;
    background-color: aquamarine;
    border: 3px solid black ;
    font-size: 30px;
@@ -19,5 +19,10 @@ td{
 .tacha{text-decoration: line-through;}
 .treinta{font-size: 30px;}
 a{text-decoration: none;}
-.shadow{text-shadow: 5px 5px 5px black;}
+.shadow{text-shadow: 10px 10px 7px blue;
+text-align: center;}
 
+body{
+background-image: url("patron-2.jpeg");
+background-attachment: fixed;
+}
